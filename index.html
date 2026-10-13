@@ -3454,20 +3454,16 @@
                                         booking, while the contact-center side supports agent availability, agent lists,
                                         and call-routing management.</p>
                                     <ul>
-                                        <li>Supported contact-center workflows for agent availability, agent-list
-                                            management, and call-routing methodology.</li>
-                                        <li>Migrated a monolithic architecture to microservices to improve scalability
-                                            and reduce system downtime.</li>
-                                        <li>Designed event-driven communication with RabbitMQ for asynchronous
-                                            processing and reduced service coupling.</li>
-                                        <li>Designed and secured REST/GraphQL APIs using JWT, OAuth 2.0, refresh-token
-                                            rotation, and RBAC.</li>
-                                        <li>Optimized Redis caching, reducing API latency by approximately 30%, and
-                                            integrated a CDN for faster frontend load times.</li>
-                                        <li>Built centralized logging and monitoring with Elasticsearch, Logstash, and
-                                            Kibana.</li>
-                                        <li>Built real-time voice systems with SIP, RTP Engine, FreeSWITCH, and
-                                            Socket.IO.</li>
+                                        <li>Migrated a monolithic architecture to microservices, improving scalability and significantly reducing system downtime.</li>
+                                        <li>Designed event-driven communication between microservices using RabbitMQ, enabling asynchronous processing and reducing service coupling.</li>
+                                        <li> Designed and secured REST/GraphQL APIs with JWT, OAuth 2.0, refresh-token rotation and RBAC for multi-role access control.</li>
+                                        <li>Handled high-concurrency real-time requests across multiple users with optimised system performance.</li>
+                                        <li>Optimized Redis caching, reducing API latency by approximately 30%, and integrated a CDN for faster frontend load times.</li>
+                                        <li>Built centralised logging with Elasticsearch, Logstash, and Kibana for real-time monitoring and log visualisation.</li>
+                                        <li>Built responsive UIs with React using reusable components, Redux for state management, and React Router for seamless navigation and role-based routing.</li>
+                                        <li>Built a real-time voice system with SIP, RTP Engine, and FreeSWITCH for VoIP, call routing, conferencing, and media streaming.</li>
+                                        <li>Developed call routing algorithms (round-robin, standard, call pool) and implemented call waiting with queue management to efficiently handle high call volumes.</li>
+                                        <li>Utilized Socket.io for real-time updates, delivering live call status, agent availability, and call timings.</li>
                                     </ul>
                                 </article>
                                 <article class="subproject">
